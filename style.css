@@ -1,0 +1,231 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Oswald;
+  font-size: 14pt;
+  background-color: #fff;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 320px){
+  nav{
+    background-color: rgba(19,41,75,0);
+    margin: 0;
+    padding: 10px;
+  }
+  nav span{
+    padding: 3px 5px;
+    background-color: transparent;
+    margin: 10px;
+    position: relative;
+    left: 95%;
+  }
+  nav span i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(19,41,75,1);
+  }
+  nav ul{
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+  }
+  nav ul li {
+    display: block;
+    padding: 3px 10px;
+  }
+  nav ul li ul{
+    font-family: Oswald;
+    color: #e1e1e1;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgba(19,41,75,1);
+    font-family: Oswald;
+  }
+  .intro{
+    height: 40vh;
+    margin: 0;
+    padding: 10%;
+    background: linear-gradient(145deg, rgba(0,54,0,0.63),rgba(0,0,78,0.63)),url('./images/radiologyback.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #e1e1e1;
+  }
+  .intro .introhead{
+    font-size: 18pt;
+    padding: 1% 2% 0% 5%;
+    margin: 0;
+  }
+  .intro p{
+    padding: 0% 5%;
+    width: 90%;
+    text-align: justify;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+  }
+  .span12{
+    width: 100%;
+  }
+  .textimg{
+    margin: 0;
+    display: inline;
+  }
+  .textimg .span6{
+    width: 44%;
+    margin: 0;
+    display: inline-block;
+  }
+  .textpart{
+    text-align: justify;
+    padding: 5% 5% 5% 5%;
+    margin: 0;
+  }
+  .imgpart{
+    background-color: #151515;
+    border-radius: 10px;
+    position: relative;
+    top: -1%;
+    left: 1%;
+  }
+  .imgpart img{
+    width: 96%;
+    padding: 2%;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .services{
+    background-color: #4B9CD3;
+    padding: 3% 5.5% 8% 5.5%;
+  }
+  .slide{
+    width: 900px;
+    height: 450px;
+    background-color: #e1e1e1;
+  }
+  .slide p{
+    position: relative;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    font-size: 18pt;
+  }
+  .slide img{
+    width: 40%;
+    position: relative;
+    left: 50%;
+  }
+  .progressbar{
+    margin-top: 10px;
+    width: 89.5%;
+    height: 10px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+  }
+  .skip{
+    height: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to left,#13294B,#007FAE);
+  }
+  .btns{
+    padding-top: 10px;
+  }
+  .btns span button{
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 50% 50%;
+    background-color: #007FAE;
+    outline: none;
+   }
+  .btns span button i{
+    font-size: 25px;
+    color:#e1e1e1;
+  }
+  .btns span button:hover i,.btns span button:active i,.btns span button:focus i{
+    color:#151515;
+  }
+  .leftbtn{
+    float: left;
+  }
+  .rightbtn{
+    position: relative;
+    left: -105px;
+    float: right;
+  }
+  .footer{
+    margin: 0;
+    padding: 30px 20px 20px 30px;
+    height: 150px;
+    background-color: #151515;
+  }
+  .footer div{
+    width: 33%;
+    display: inline-block;
+  }
+  .footer div h3{
+    color: #e1e1e1;
+    margin: 0;
+    padding: 0px 20px;
+  }
+  .footer div ul {
+    list-style-type: none;
+    margin: 0;
+    display: inline;
+  }
+  .footer div ul li{
+    padding: 0px 20px;
+  }
+  .footer div ul li a{
+    text-decoration: none;
+    color: #e1e1e1;
+  }
+}
+@media screen and (min-width: 1200px){
+  nav > span{
+    visibility: hidden;
+  }
+
+  nav ul{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+    position: relative;
+    left: 60%;
+    width: 25%;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 0px 20px;
+  }
+  nav ul li ul{
+    position: absolute;
+    top: 113%;
+    left: 25%;
+    width: 200px;
+    background-color: #e1e1e1;
+    font-family: Oswald;
+    display: none;
+  }
+  nav ul li ul li{
+    display: block;
+  }
+  nav ul li ul li a{
+    text-decoration: none;
+    color: #333;
+  }
+  nav ul li ul li:hover{
+    background-color: #
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:#E1E1E1;
+    font-family: Oswald;
+  }
+}
